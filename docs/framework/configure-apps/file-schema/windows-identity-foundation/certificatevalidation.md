@@ -20,7 +20,7 @@ Controls the settings that token handlers use to validate certificates. These se
     <certificateValidation  
       certificateValidationMode="None||ChainTrust||PeerTrust||PeerOrChainTrust||Custom"  
       revocationMode="NoCheck||Offline||Online"  
-      trustedStoreLocation="CurrentLocation||LocalMachine" >  
+      trustedStoreLocation="CurrentUser||LocalMachine" >  
     </certificateValidation>  
   </identityConfiguration>  
 </system.identityModel>  
